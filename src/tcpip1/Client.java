@@ -8,7 +8,7 @@ import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.net.Socket;
 import java.net.UnknownHostException;
-
+   
 public class Client {
   public static void main(String args[]){
 	  String ip = "70.12.111.130";
