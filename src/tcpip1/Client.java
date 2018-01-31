@@ -21,6 +21,14 @@ public class Client {
 	  InputStreamReader inr = null;
 	  BufferedReader br = null;
 		
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
 	  try {
 		  System.out.println("Start Client ...");
 		  socket = new Socket(ip,port);
@@ -28,6 +36,7 @@ public class Client {
 		
 		  // Send Data ...
 		  outs = socket.getOutputStream();
+		  
 		  outw = new OutputStreamWriter(outs);
 		  outw.write("jmlee");
 		  System.out.println("Send Completed..");
