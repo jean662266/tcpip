@@ -3,10 +3,10 @@ package client;
 public class Client {
 
 	public static void main(String[] args) {
-		int a = 10;
-		int b = 10;
-		int c = 10;
-		int d = 10;
+		String ip = "70.12.111.130";
+		int port = 8888;
+		ClientChat chat = null;
+		chat = new ClientChat(ip, port);
 	}
 
 }
